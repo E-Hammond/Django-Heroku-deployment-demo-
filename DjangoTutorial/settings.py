@@ -26,9 +26,9 @@ BASE_DIR = Path(__file__).resolve().parent.parent
 SECRET_KEY = 'rra$00asl%ad*rfsnj5@i=(nho!*&ue-re=mth)eg9(b8ri_uj'
 
 # SECURITY WARNING: don't run with debug turned on in production!
-DEBUG = True
+DEBUG = False
 
-ALLOWED_HOSTS = []
+ALLOWED_HOSTS = ['glacial-reef-10431.herokuapp.com', '127.0.0.1']
 
 
 # Application definition
